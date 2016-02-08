@@ -222,10 +222,11 @@ groups:
     inheritance:
     - Admin
     options:
-      rank: '600'
+      rank: '1'
       prefix: '&8[&cOwner&8]&7 '
 Technician:
     inheritance:
     - Admin
     options:
+    rank : '10'
       prefix: '&8[&aTechnician&8]&7 '
