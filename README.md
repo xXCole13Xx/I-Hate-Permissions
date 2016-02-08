@@ -4,7 +4,6 @@ groups:
   Member:
     options:
       rank: '1000'
-      rank-ladder: User
       default: true
       prefix: '&8[&rMember&8]&7 '
     permissions:
@@ -81,7 +80,6 @@ groups:
     - essentials.jail.allow.seen
     options:
       rank: '900'
-      rank-ladder: User
       prefix: '&8[&aMemberr&8]&7 '
   Mod:
     inheritance:
@@ -170,8 +168,7 @@ groups:
     - vanish.hooks.dynmap.alwayshidden
     - vanish.hooks.essentials.hide
     options:
-      rank: '100'
-      rank-ladder: User
+      rank: '800'
       prefix: '&8[&bMod&8]&7 '
   Admin:
     inheritance:
@@ -220,14 +217,12 @@ groups:
     - vanish.silentquit
     - vanish.silentchestsI need 
     options:
-      rank: '10'
-      rank-ladder: User
+      rank: '700'
       prefix: '&8[&eAdmin&8]&7 '
   
   Owner:
     inheritance:
     - Admin
     options:
-      rank: '1'
-      rank-ladder: User
+      rank: '600'
       prefix: '&8[&cOwner&8]&7 '
