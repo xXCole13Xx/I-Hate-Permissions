@@ -1,5 +1,3 @@
-# I-Hate-Permissions
-Roles/ranks for Haven: Vanilla MC
 groups:
   Member:
     options:
@@ -23,11 +21,11 @@ groups:
     - essentials.back
     - essentials.back.ondeath
     - essentials.balance
-    - essentials.balance.others
+    - -essentials.balance.others
     - essentials.balancetop
     - essentials.book
-    - essentials.chat.color
-    - essentials.chat.format
+    - -essentials.chat.color
+    - -essentials.chat.format
     - essentials.chat.shout
     - essentials.chat.question
     - essentials.compass
@@ -44,19 +42,19 @@ groups:
     - essentials.mail.send
     - essentials.me
     - essentials.msg
-    - essentials.msg.color
-    - essentials.msg.format
-    - essentials.nick
+    - -essentials.msg.color
+    - -essentials.msg.format
+    - -essentials.nick
     - essentials.pay
     - essentials.ping
-    - essentials.powertool
-    - essentials.powertooltoggle
+    - -essentials.powertool
+    - -essentials.powertooltoggle
     - essentials.protect
     - essentials.recipe
     - essentials.seen
     - essentials.sethome
     - essentials.sethome.bed
-    - essentials.sethome.multiple
+    - -essentials.sethome.multiple
     - essentials.signs.use.*
     - essentials.signs.create.disposal
     - essentials.signs.create.mail
@@ -88,7 +86,7 @@ groups:
     - bukkit.command.ban
     - bukkit.command.ban.ip
     - bukkit.command.ban.player
-    - bukkit.command.gamemode
+    - -bukkit.command.gamemode
     - bukkit.command.kick
     - bukkit.command.unban
     - bukkit.command.unban.ip
@@ -104,9 +102,9 @@ groups:
     - essentials.chat.url
     - essentials.chat.magic
     - essentials.clearinventory
-    - essentials.delwarp
-    - essentials.eco.loan
-    - essentials.exp.others
+    - -essentials.delwarp
+    - -essentials.eco.loan
+    - -essentials.exp.others
     - essentials.ext
     - essentials.getpos
     - essentials.getpos.others
@@ -114,27 +112,27 @@ groups:
     - essentials.home.others
     - essentials.invsee
     - essentials.jails
-    - essentials.jump
+    - -essentials.jump
     - essentials.kick
     - essentials.kick.notify
-    - essentials.kill
+    - -essentials.kill
     - essentials.kits.*
     - essentials.msg.magic
     - essentials.mute
     - essentials.mute.notify
-    - essentials.nick.color
-    - essentials.nick.others
+    - -essentials.nick.color
+    - -essentials.nick.others
     - essentials.realname
     - essentials.seen.banreason
     - essentials.seen.extra
-    - essentials.setwarp
+    - -essentials.setwarp
     - essentials.signs.create.*
     - essentials.signs.break.*
     - essentials.spawner
     - essentials.spawner.*
-    - essentials.thunder
+    - -essentials.thunder
     - essentials.time
-    - essentials.time.set
+    - -essentials.time.set
     - essentials.protect.alerts
     - essentials.protect.admin
     - essentials.protect.ownerinfo
@@ -152,9 +150,9 @@ groups:
     - essentials.vanish
     - essentials.vanish.effect
     - essentials.warps.*
-    - essentials.weather
+    - -essentials.weather
     - essentials.whois
-    - essentials.workbench
+    - -essentials.workbench
     - essentials.world
     - essentials.worlds.*
     - essentials.jail.allow.jails
@@ -226,3 +224,8 @@ groups:
     options:
       rank: '600'
       prefix: '&8[&cOwner&8]&7 '
+Technician:
+    inheritance:
+    - Admin
+    options:
+      prefix: '&8[&aTechnician&8]&7 '
