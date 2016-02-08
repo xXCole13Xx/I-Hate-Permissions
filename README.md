@@ -171,7 +171,7 @@ groups:
     - vanish.hooks.essentials.hide
     options:
       rank: '100'
-      rank-ladder: Staff
+      rank-ladder: User
       prefix: '&8[&bMod&8]&7 '
   Admin:
     inheritance:
@@ -221,7 +221,7 @@ groups:
     - vanish.silentchestsI need 
     options:
       rank: '10'
-      rank-ladder: Staff
+      rank-ladder: User
       prefix: '&8[&eAdmin&8]&7 '
   
   Owner:
@@ -229,5 +229,5 @@ groups:
     - Admin
     options:
       rank: '1'
-      rank-ladder: Staff
+      rank-ladder: User
       prefix: '&8[&cOwner&8]&7 '
